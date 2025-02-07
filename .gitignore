@@ -1,0 +1,25 @@
+# Logs, ignorer tous les fichiers de log générés par npm, yarn, pnpm ou lerna.
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ignorer les dossiers générés par le build comme node_modules, dist, dist-ssr, et les fichiers avec l'extension .local
+node_modules
+dist
+dist-ssr
+*.local
+
+# editor directories and files, ignorer les dossiers et fichiers spécifiques aux éditeurs (VSCode, IntelliJ, macOS) pour éviter de partager des configurations personnelles
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
