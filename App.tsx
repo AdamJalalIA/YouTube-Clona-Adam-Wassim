@@ -22,7 +22,7 @@ function App() {
   const [likedVideos, setLikedVideos] = useState([]);         // Vidéos aimées
 
   // clé API YouTube
-  const API_KEY = 'AIzaSyDmdoXFKo862rkNlytyP9gnRHa16IgnOiU';
+  const API_KEY = 'notre clé API';
 
   // effet qui s'exécute quand la vue change
   useEffect(() => {
